@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: AnosikeKongaProjectTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 4.936 sec <<< FAILURE!
+start(AnosikeKongaProjectTest)  Time elapsed: 4.383 sec  <<< FAILURE!
+java.lang.AbstractMethodError: Receiver class org.openqa.selenium.edge.EdgeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.util.List createArgs()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:463)
+	at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:55)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:98)
+	at AnosikeKongaProjectTest.start(AnosikeKongaProjectTest.java:34)
+
